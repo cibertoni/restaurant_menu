@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box; /*o box-sizzing (é um padrão*) faz ele respeitar o tamanho da caixa e redimensiona considerando o espaço total*/
+}
+
+body{
+  width: 960px; /* A largura total do site será de 960 px*/
+  margin: 0 auto; /*centralizar todo o elemento*/
+  padding: 0; /*é um padrão* de sempre colocar, pois dependendo do provedor ele quebra*/
+  font-family: 'arial', sans-serif; /*todas as fontes serão essa*/
+}
+
+header{
+  border-bottom: 1px solid black; /*inlcuir borda inferior preta*/
+  padding: 20px; /*padding espaçamento interno*/
+}
+
+aside{
+  width: 300px; /*largura da area de aside*/
+  float: left; /*flutuar para a esquerda*/
+  padding: 15px; /*padding espaçamento interno*/
+}
+
+aside ul{
+  margin: 0;
+  padding: 0;
+}
+
+aside ul li{
+  padding: 10px;
+}
+
+aside ul li a{
+  text-decoration: none;
+  color: gray;
+}
+
+main{
+  width: 610px; /*largura da area do main*/
+  float: right; /*flutuar para a direita*/
+  padding: 15px; /*padding espaçamento interno*/
+  border-left: 1px solid black; /*borda a esquerda*/
+}
+
+main section img {
+  float: right;/*a imagem das seções devem sempre flutuar para a direita*/
+}
+
+footer{
+  width: 100%;
+  clear: both;
+  padding: 20px; /*padding espaçamento interno para todos os lados*/
+}
+
+footer img{ /*selecionando a imagem do footer*/
+  width: 150px;
+  float: left; /*a imagem do footer devem sempre flutuar para a esquerda*/
+}
+
+footer nav{
+  float: right; /*a imagem do footer nav devem sempre flutuar para a direita*/
+}
+
+ul{
+  list-style: none; /*lista deve ficar sem estilo-> sem bolinha*/
+}
